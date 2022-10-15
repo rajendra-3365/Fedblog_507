@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+  background-image:linear-gradient(#ce6422,#A43931);
+  height: 50px;
+  color:white;
+  padding: 5px;
+
+
+}
+
+nav{
+  display: flex;
+ 
+}
+h3{
+  margin-top: 4px;
+  margin-left: 4px;
+  font-size: 20px;
+}
+li{
+  font-size: 20px;
+  list-style: none;
+  display: inline;
+  margin: 18px;
+  
+}
+.header-logo{
+  margin-left: 3px;
+  display: flex;
+  flex: 9;
+}
+p{
+  margin-left: 5px;
+  margin-top: 10px;
+  font-size:20px;
+
+}
+span{
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+ul{
+  margin-top: 10px;
+  margin-right: 0%;
+
+
+}
+.main-container{
+  display: flex;
+  
+
+
+ 
+}
+.content{
+ flex: 10;
+ background-image: linear-gradient(#ff4b1f,#ff9068);
+ opacity: 0.89;
+ width: 70%;
+padding: 5px;
+color:whitesmoke;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+
+}
+.blog-card{
+   flex: 2;
+   background-image: linear-gradient(#D1913C,#FFD194);
+   opacity: 0.89;
+
+  
+}
+p span{
+  background-color: rgb(201, 192, 192);
+  color: white;
+  padding: auto;
+  
+
+}
+.example{
+  background-color: rgb(199, 190, 190);
+  color: rgb(26, 21, 21);
+  padding: 20px;
+  width: 50%;
+  margin-left: 350px;
+  border-radius: 5px;
+}
+.content-blog{
+  display: flex;
+  flex-direction: column;
+  margin:40px;
+  color: whitesmoke;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  
+
+}
+.content-blog div{
+  margin: 5px;
+}
+.rectangle,.circle,.line,.polyline,.polygon,.path,.ellipse{
+  box-sizing: border-box;
+  border-radius: 4px;
+ 
+  padding: 5px;
+}
+.options a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+.options a:hover{
+  background-color: rgb(41, 35, 35);
+  opacity: 0.89;
+  padding: 3px;
+  float: left;
+  color: aquamarine;
+}
+.content-blog{
+  position:fixed;
+}
+.scrolltop{
+  
+  margin-top: 600px;
+  margin-left: 60px;
+  position: fixed;
+}
+button{
+  font-size: 20px;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #06283D;
+  color: whitesmoke;
+
+}
+
+li a{
+  text-decoration: none;
+   color: white;
+}
+li a:hover{
+  padding: 5px;
+  border-radius:5px ;
+  background-color: #7895B2;
+  color: rgb(23, 232, 173);
+}
+footer {
+  text-align: center;
+  padding: 6px;
+  background-image: linear-gradient(#C02425,#F0CB35);
+  color: white;
+  padding-bottom: 15px;
+  border: 2px solid rgb(231, 189, 49);
+}
+
